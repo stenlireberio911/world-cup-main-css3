@@ -1,0 +1,356 @@
+/* google fonts -------------
+-----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+
+/* styling hero section-----------
+------------- */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 646px;
+    background-color: #161616;
+    color: white;
+    margin: 60px auto;
+    border-radius: 30px;
+    padding: 60px;
+
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 70px;
+
+}
+
+.section-left p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.section-left button {
+    text-decoration: none;
+    background-color: #DD0000;
+    padding: 16px 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+
+}
+
+.section-right img {
+    width: 581px;
+    height: 613px;
+}
+
+/* second-section starts-------------
+------------ */
+.second-section {
+    display: flex;
+    width: 90%;
+    margin: 100px auto;
+}
+
+.aside-buttons {
+    width: 312px;
+    height: 312px;
+    background-color: black;
+    border-radius: 10px;
+    padding-top: 30px;
+
+
+}
+
+.buttons button {
+    font-size: 16px;
+    border-radius: 10px;
+    line-height: 30px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    cursor: pointer;
+    width: 90%;
+    display: block;
+    margin: 30px auto;
+}
+
+
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.match {
+    width: 312px;
+    height: 280px;
+    border: 1px solid rgb(248, 245, 245);
+    border-radius: 19px;
+    margin-left: 10px;
+    padding-top: 30px;
+    text-align: center;
+
+}
+
+.match-country {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.match h4 {
+    font-size: 24px;
+}
+
+.match-time {
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(82, 78, 78);
+}
+
+.match-time i {
+    margin: 0 5px;
+}
+
+/* footer section  */
+.footer-section {
+    color: white;
+    background-color: #161616;
+    height: 300px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.footer-section h1 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+hr {
+    border: 1px solid grey;
+    margin: 50px 70px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+/* media queries--------------
+------------ */
+@media screen and (max-width: 688px) {
+    main {
+        width: 100%;
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        height: 100%;
+        background-color: #161616;
+        color: white;
+        margin: 60px auto;
+        border-radius: 30px;
+        padding: 60px;
+        text-align: center;
+    }
+
+    .section-right img {
+        width: 100%;
+        height: 300px;
+        width: 300px;
+        padding-top: 20px;
+    }
+
+    .section-left button {
+        text-decoration: none;
+        background-color: #DD0000;
+        padding: 10px 15px;
+        color: white;
+        font-size: 12px;
+        font-weight: 300;
+        border-radius: 5px;
+    }
+
+    /* second section----------------
+-------------- */
+    .second-section {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 100px auto;
+    }
+
+    .aside-buttons {
+        width: 100%;
+        background-color: white;
+
+
+    }
+
+    .matches {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+        column-gap: 10px;
+    }
+
+    .match {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+
+    }
+
+
+    .match img {
+        width: 30%;
+
+    }
+
+
+    /* footer starts-------------
+--------------- */
+    .footer-section {
+        width: 100%;
+        height: 100%;
+        padding-top: 30px;
+
+    }
+
+    .footer-section a {
+        font-family: none;
+        display: block;
+        margin: 20px 0;
+    }
+
+    .social-media a {
+        display: inline-block;
+    }
+}
+
+
+
+/* tablet version-------------
+----------- */
+
+
+@media only screen and (min-width: 689px) and (max-width: 991px) {
+    main {
+        width: 100%;
+    }
+
+    .hero-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 100%;
+        background-color: #161616;
+        color: white;
+        margin: 60px auto;
+        border-radius: 30px;
+        text-align: center;
+    }
+
+    .section-left {
+        width: 100%;
+    }
+
+    .section-right img {
+        width: 100%;
+
+
+    }
+
+    .second-section {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 100px auto;
+    }
+
+    .aside-buttons {
+        width: 100%;
+        height: 100%;
+        font-size: 16px;
+        background-color: white;
+    }
+
+    .buttons {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-evenly;
+        align-items: center;
+
+
+    }
+
+    .matches {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
+        column-gap: 10px;
+    }
+
+    .view-more {
+        visibility: visible;
+        display: grid;
+        text-decoration: none;
+        grid-template-columns: repeat(100px 1fr);
+        color: white;
+        text-align: center;
+        background-color: red;
+        padding: 10px 40px;
+        margin: 30px 30%;
+    }
+
+
+    /* footer------------
+----------- */
+
+    footer {
+        width: 100%;
+        /* height: 500px; */
+        padding-top: 30px;
+
+    }
+
+    .footer-section a {
+        width: 100%;
+        height: 100%;
+        font-family: none;
+        display: flex;
+        margin: 20px 0;
+    }
+
+    .social-media a {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+    }
+}
+
+Footer © 2022 GitHub,
+Inc. Footer navigation Terms
