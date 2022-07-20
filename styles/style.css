@@ -1,5 +1,89 @@
-h1{
-    width: 100px;
-    height: 100px;
-    padding: 200px;
+/*--font--*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+.container{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   position: absolute;
+    width: 1300px;
+    height: 500px;
+    padding: 100px;
+    top: 50px;
+    left: 280px;
+    
+        background: #161616;
+        border-radius: 30px;
+    align-items: center;
+    color: white
+    
+}
+.group-1{
+position: absolute;
+    width: 531px;
+    height: 424px;
+    top: 40px;
+    padding-left: 106px;
+        
+}
+.text-1{
+        color: white;
+        width: 531px;
+        height: 235px;
+        left: 246px;
+        top: 161px;
+    
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 80px;
+}
+.text-2{
+        color: white;
+        width: 506px;
+        height: 115px;
+        left: 240px;
+        top: 421px;
+        
+    
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+}
+.group-2{
+    position: absolute;
+        width: 581px;
+        height: 613px;
+        left: 650px;
+        top: 83px;  
+         
+}
+.brazil{
+    width: 101%;
+    padding-left: 210px;
+}
+.watch-live{
+        width: 187px;
+        height: 55px;
+        top: 529px;
+        margin-right: 300px;
+        font-size: 18px;
+        background: #DD0000;
+        border-radius: 5px;
+}
+.button{
+        
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        margin: 10px;
+        
+    
+        color: #FFFFFF;
 }
