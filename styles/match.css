@@ -44,8 +44,16 @@ body {
     font-size: 16px;
     font-weight: 400;
     border-radius: 5px;
-
+    transition: 3s;
 }
+
+.section-left button:hover {
+
+    background-color: white;
+    color: black;
+    border: 1px solid green;
+}
+
 
 .section-right img {
     width: 581px;
@@ -70,19 +78,27 @@ body {
 
 }
 
+.buttons a {
+    text-decoration: none;
+}
+
 .buttons button {
     font-size: 16px;
     border-radius: 10px;
     line-height: 30px;
     background-color: #ffffff;
+    border: 1px solid green;
     color: rgb(0, 0, 0);
-    padding: 10px 10px;
+    padding: 10px 24px;
     cursor: pointer;
     width: 90%;
     display: block;
     margin: 30px auto;
 }
 
+#red button {
+    background-color: red;
+}
 
 .matches {
     display: grid;
@@ -123,31 +139,40 @@ body {
 }
 
 /* footer section  */
-.footer-section {
-    color: white;
+footer {
     background-color: #161616;
-    height: 300px;
+    padding: 100px;
     text-align: center;
-    padding-top: 100px;
 }
 
-.footer-section h1 {
-    font-weight: 600;
-    font-size: 40px;
-}
-
-hr {
-    border: 1px solid grey;
-    margin: 50px 70px;
-}
-
-.footer-section a {
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 400;
+footer h3 {
     color: white;
-    text-align: center;
-    margin: 10px;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.footer-links {
+    margin-top: 40px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    margin-right: 20px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.icons {
+    color: white;
+    margin-right: 20px;
+    font-size: 18px;
+    background-color: rgb(53, 47, 47);
+    padding: 5px;
+    border-radius: 50%;
 }
 
 /* media queries--------------
@@ -331,7 +356,7 @@ hr {
 ----------- */
 
     footer {
-        width: 100%;
+        width: 70%;
         /* height: 500px; */
         padding-top: 30px;
 
@@ -352,5 +377,3 @@ hr {
     }
 }
 
-Footer © 2022 GitHub,
-Inc. Footer navigation Terms
