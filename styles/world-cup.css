@@ -1,11 +1,15 @@
-/* google fonts -------------
------------------*/
+/* ------------
+--------google fonts -------------
+    --------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 
+}
+main{
+    background-color: whitesmoke;
 }
 
 /* styling hero section-----------
@@ -16,11 +20,12 @@ body {
     align-items: center;
     width: 80%;
     height: 646px;
-    background-color: #161616;
+    background-color: #009c3b;
     color: white;
     margin: 60px auto;
     border-radius: 30px;
     padding: 60px;
+    padding-top: 100px;
 
 }
 
@@ -49,7 +54,7 @@ body {
 
 .section-right img {
     width: 581px;
-    height: 613px;
+    height: 772px;
 }
 
 /* second-section starts-------------
@@ -63,7 +68,7 @@ body {
 .aside-buttons {
     width: 312px;
     height: 312px;
-    background-color: black;
+    background-color: #009c3b;
     border-radius: 10px;
     padding-top: 30px;
 
@@ -88,6 +93,13 @@ body {
 }
 .blog-button{
     color: #DD0000;
+}
+.blog-color{
+        color: white;
+            text-align: center;
+            background-color: red;
+            padding: 10px 40px;
+            margin: 30px 30%;
 }
 
 .matches {
@@ -133,7 +145,9 @@ i {
 
 .footer-section a {
     font-family: none;
-    display: block;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
     margin: 20px 0;
 }
 
@@ -148,8 +162,8 @@ i {
 /* footer section  */
 .footer-section {
     color: white;
-    background-color: #161616;
-    height: 300px;
+    background-color: #009c3b;
+    height: 500px;
     text-align: center;
     padding-top: 100px;
 }
@@ -160,7 +174,7 @@ i {
 }
 
 hr {
-    border: 1px solid grey;
+    border: 1px solid black;
     margin: 50px 70px;
 }
 
