@@ -87,7 +87,7 @@ body {
     border-radius: 10px;
     line-height: 30px;
     background-color: #ffffff;
-    border: 1px solid green;
+    border: 1px solid ;
     color: rgb(0, 0, 0);
     padding: 10px 24px;
     cursor: pointer;
@@ -368,6 +368,7 @@ footer h3 {
         font-family: none;
         display: flex;
         margin: 20px 0;
+        color: aqua;
     }
 
     .social-media a {

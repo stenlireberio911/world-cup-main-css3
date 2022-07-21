@@ -211,7 +211,7 @@ hr {
         color: white;
         font-size: 12px;
         font-weight: 300;
-        border-radius: 5px;
+        border-radius: 8px;
     }
 
     /* second section----------------
@@ -303,8 +303,9 @@ hr {
 
     .section-right img {
         width: 100%;
-
-
+    }
+    .section-right{
+        height: 607px;
     }
 
     .second-section {
